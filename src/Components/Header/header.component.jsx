@@ -1,13 +1,13 @@
 import React from 'react'
 import './header.styles.scss'
-import {BrowserRouter as Router, Link } from 'react-router-dom'
+import {BrowserRouter as Router, Link , withRouter } from 'react-router-dom'
 import {ReactComponent as Logo} from '../../assets/crown.svg'
 
-export default function Header() {
+const Header = () =>  {
     return (
         <Router>
         <div className='header'>
-            <Link href='/'  className='logo-container' >
+            <Link to='/'  className='logo-container' >
                 <Logo className ='logo' />
             </Link>
             <div className="options">
@@ -17,3 +17,4 @@ export default function Header() {
         </Router>
     )
 }
+export default withRouter(Header)
