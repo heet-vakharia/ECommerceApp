@@ -10,7 +10,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Demo/>
         <Header />
           <Router>
             <Switch>
@@ -24,10 +23,6 @@ class App extends Component {
     );
   }
   
-}
-const Demo =()=>{
-  console.log('000000')
-  return <p>Helllo</p>
 }
 
 export default App;
