@@ -10,11 +10,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+     
           <Router>
+          <Header />
             <Switch>
                <Route exact path='/' component={Homepage} / >
-              <Route exact path = '/shop' component = {Shop} />
+              <Route path = '/shop' component = {Shop} />
             </Switch>
             
           </Router>
@@ -24,5 +25,4 @@ class App extends Component {
   }
   
 }
-
 export default App;
