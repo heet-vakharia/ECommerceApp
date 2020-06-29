@@ -12,7 +12,7 @@
     font-family: 'Open Sans Condensed';
     font-weight: bolder;
     border: none;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     cursor: pointer;
   
     &:hover {
@@ -26,7 +26,7 @@
       border: 1px solid black;
     }
     &.Twitter{
-      background-color:#1DA1F2 ;
+      background-color:#19a4fa ;
       color: white;
       &:hover{
         background-color: #009dff;
